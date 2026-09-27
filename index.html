@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shawon Roy — software engineer. Backend, frontend, and ML, with electronics as a hobby."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@380;480;580;680&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shawon Roy — Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <div class="code-field" id="codeField" aria-hidden="true"></div>
+      <div class="scan" aria-hidden="true"></div>
+      <a class="skip" href="#main">skip to content</a>
+
+      <header class="topbar glass">
+        <a href="#/" class="brand">
+          <span class="brand-mark">SR</span>
+          <span class="brand-text">
+            <strong id="brandName"></strong>
+            <small id="brandTitle"></small>
+          </span>
+        </a>
+        <nav class="nav" aria-label="primary">
+          <a class="nav-link" data-route="/" href="#/">home</a>
+          <a class="nav-link" data-route="/work" href="#/work">work</a>
+          <a class="nav-link" data-route="/about" href="#/about">about</a>
+        </nav>
+        <a class="mail-chip" id="mailChip" href="#">mail</a>
+      </header>
+
+      <main id="main" class="stage"></main>
+
+      <footer class="status glass">
+        <span class="dot"></span>
+        <span>link up</span>
+        <a id="ghLink" href="#" target="_blank" rel="noreferrer"></a>
+        <a id="liLink" href="#" target="_blank" rel="noreferrer">linkedin</a>
+        <button type="button" class="ghost" id="emailBtn" onclick="copyEmail(this)"></button>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="icons.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
