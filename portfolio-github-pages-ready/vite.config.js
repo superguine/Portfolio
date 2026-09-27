@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/your-repo-name/',
+  base: '/Portfolio',
   plugins: [react()],
   server: {
     host: true,
