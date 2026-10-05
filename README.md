@@ -1,7 +1,7 @@
 # Portfolio (static HTML/CSS/JS)
 
 No build step, no framework, no bundler. Just open `index.html` or push these files as-is to GitHub Pages.
-
+[Click to see](https://superguine.github.io/Portfolio/)
 ## Files
 - `index.html` — page shell
 - `style.css` — all styling
